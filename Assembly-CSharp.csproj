@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\EntryLevel\N1002_Static\N1002_Static.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N1003_Time\N1003_Time.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0002_LifeCycle\N0002_LifeCycle.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N1002_Static\N1002_Static_1.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0004_Mono中的重要函数\N0004_MonoBehaviourSpecial.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0004_Mono中的重要函数\N0004_OtherSpecial.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N1001_GameObject\N1001_GameObject.cs" />

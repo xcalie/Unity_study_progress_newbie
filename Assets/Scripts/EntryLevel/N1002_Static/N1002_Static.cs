@@ -109,15 +109,78 @@ public class N1002_Static : MonoBehaviour
         // 默认情况下 在切换场景式对象都会被自动删除掉
         // 过场景不移除，在过场景填入以下内容不会删除
         GameObject.DontDestroyOnLoad(obj5);
-        
+
 
         #endregion
 
+        #region GameObject中的成员方法
+
+        //创建空物体 new
+        GameObject obj6 = new GameObject();
+        //GameObject obj7 = new GameObject("创建的一个空物体");
+        //GameObject obj8 = new GameObject("带着脚本的空物体", typeof(N0002_LifeCycle), typeof(N1002_Static));
+
+        // 为对象添加脚本
+        // 继承Mono的脚本不能去new
+        // 可以直接将一个脚本挂着物体上
+
+        // 直接GameObject的方法
+        //N0002_LifeCycle n0002 = obj6.AddComponent(typeof(N0002_LifeCycle)) as N0002_LifeCycle;
+        // 用泛型更方便
+        N0001_MonoBehaviour n0002_1 = obj6.AddComponent<N0001_MonoBehaviour>();
+        //通过返回值可以得到加入脚本的信息,用于处理
+
+        // 得到脚本的成员方法和继承Mono的方法一样
+
+        // 标签比较
+        if (this.gameObject.CompareTag("Player"))
+        {
+            print("对象的标签是Player");
+
+        }
+        else
+        {
+            print("对象的标签不是Player");
+
+        }
+
+        // 设置激活失活
+        obj6.SetActive(false);
+        obj5.SetActive(false);
+
+
+
+        #endregion
+
+        #region 寻找
+
+        // 效率及低不宜使用！！！
+
+        // 会寻找所有同名函数
+        this.gameObject.SendMessage("TestFun");
+        this.gameObject.SendMessage("TestFunc", 2);
+
+        // 广播行为让自己和子对象执行
+        //this.gameObject.BroadcastMessage("函数名");
+        // 广播行为让自己和父对象执行
+        //this.gameObject.SendMessageUpwards("函数名");
+
+        #endregion
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void TestFun()
+    {
+        print("TestFun running");
+    }
+
+    void TestFunc(int num1)
+    {
+        print((int)num1);
     }
 }
