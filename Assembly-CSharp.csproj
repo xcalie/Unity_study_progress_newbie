@@ -61,13 +61,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\EntryLevel\N1002_Static\N1002_Static.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N1005_Transform\N1005_Transform.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N1003_Time\N1003_Time.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0002_LifeCycle\N0002_LifeCycle.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N1008_FatherSon\N1008_FatherSon.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N1006_Rotation\N1006_Rotation.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N1009_addressChange\N1009_addressChange.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N1002_Static\N1002_Static_1.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N2001_Input\N2001_Input.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0004_Mono中的重要函数\N0004_MonoBehaviourSpecial.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0004_Mono中的重要函数\N0004_OtherSpecial.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N1001_GameObject\N1001_GameObject.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N1004_Vector\N1004_Vector.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0003_InspectorAbleEdit\N0003_InspectorAbleEdit.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N1007_ScaleTool\N1007_ScaleTool.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0001_MonoBehaviour\N0001_MonoBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
