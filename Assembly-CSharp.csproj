@@ -70,11 +70,13 @@
     <Compile Include="Assets\Scripts\EntryLevel\N1002_Static\N1002_Static_1.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N2001_Input\N2001_Input.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0004_Mono中的重要函数\N0004_MonoBehaviourSpecial.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N2002_Screen\N2002_Screen.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0004_Mono中的重要函数\N0004_OtherSpecial.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N1001_GameObject\N1001_GameObject.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N1004_Vector\N1004_Vector.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0003_InspectorAbleEdit\N0003_InspectorAbleEdit.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N1007_ScaleTool\N1007_ScaleTool.cs" />
+    <Compile Include="Assets\Scripts\EntryLevel\N2001_Input\N2001_Input2.cs" />
     <Compile Include="Assets\Scripts\EntryLevel\N0001_MonoBehaviour\N0001_MonoBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
